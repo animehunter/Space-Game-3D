@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Asteroid">
+      <UniqueIdentifier>{39b64c65-b8b2-40fe-877f-c2787a153240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debris">
+      <UniqueIdentifier>{ee59e99f-86e3-401a-a77a-c0643ca1a10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{e442f20f-da41-403b-9445-72efc9118d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Planet">
+      <UniqueIdentifier>{1bacfd91-32e4-42cd-9d79-242dd26f70c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderFramework">
+      <UniqueIdentifier>{ad29e43a-9715-4570-a4d4-53bfa101fb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skybox">
+      <UniqueIdentifier>{8ab707e6-3d17-47e4-b748-044f752131a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sphere">
+      <UniqueIdentifier>{119133e2-a245-4c67-95ae-2ff8557c31dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameView">
+      <UniqueIdentifier>{622ecdac-561b-4175-a6eb-e38b960a5866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Client\Asteroid\asteroid.cpp">
+      <Filter>Asteroid</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\Debris\debris.cpp">
+      <Filter>Debris</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\Model\lib3ds_help.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\Model\model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\Planet\planet.cpp">
+      <Filter>Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\RenderFramework\camera.cpp">
+      <Filter>RenderFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\RenderFramework\orientation.cpp">
+      <Filter>RenderFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\RenderFramework\position.cpp">
+      <Filter>RenderFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\Skybox\skybox.cpp">
+      <Filter>Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\Sphere\sphere.cpp">
+      <Filter>Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\GameView\game_view.cpp">
+      <Filter>GameView</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Client\precomp.cpp" />
+    <ClCompile Include="Sources\Client\program.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Client\Asteroid\asteroid.h">
+      <Filter>Asteroid</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\Debris\debris.h">
+      <Filter>Debris</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\Model\lib3ds_help.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\Model\model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\Planet\planet.h">
+      <Filter>Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\RenderFramework\camera.h">
+      <Filter>RenderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\RenderFramework\frustrum.h">
+      <Filter>RenderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\RenderFramework\light_model.h">
+      <Filter>RenderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\RenderFramework\orientation.h">
+      <Filter>RenderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\RenderFramework\plane_equation.h">
+      <Filter>RenderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\RenderFramework\position.h">
+      <Filter>RenderFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\Skybox\skybox.h">
+      <Filter>Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\Sphere\sphere.h">
+      <Filter>Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\GameView\game_view.h">
+      <Filter>GameView</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Client\precomp.h" />
+    <ClInclude Include="Sources\Client\program.h" />
+  </ItemGroup>
+</Project>
