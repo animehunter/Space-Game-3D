@@ -1,0 +1,26 @@
+nodeview 
+{
+	bg-color: black;
+}
+
+nodeview toolbar
+{
+	bg-color: grey;
+}
+
+nodeview node
+{
+	bg-image-sizing-left: 10;
+	bg-image-sizing-right: 10;
+	bg-image-sizing-top: 10;
+	bg-image-sizing-bottom: 10;
+	bg-image-sizing: default;
+	bg-image: NodeNormal; 
+	text-color:white;
+	align:center;
+}
+
+nodeview node:hot
+{
+	bg-image: NodeHot; 
+}

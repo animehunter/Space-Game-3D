@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+  <image name="LoginBackground">
+    <image-file file="Images\Login.png" />
+  </image>
+  <image name="CharacterSelectionBackground">
+    <image-file file="Images\CharacterSelection.png" />
+  </image>
+
+  <image name="ButtonDisabled">
+    <image-file file="ImagesBase\button_disabled.png" />
+  </image>
+  <image name="ButtonDefaulted">
+    <image-file file="ImagesBase\button_defaulted.png" />
+  </image>
+  <image name="ButtonHot">
+    <image-file file="ImagesBase\button_hot.png" />
+  </image>
+  <image name="ButtonNormal">
+    <image-file file="ImagesBase\button_normal.png" />
+  </image>
+  <image name="ButtonPressed">
+    <image-file file="ImagesBase\button_pressed.png" />
+  </image>
+  <image name="ButtonFocus">
+    <image-file file="Images\button_focus.png" />
+  </image>
+  
+  <image name="WindowCaptionActive">
+    <image file="ImagesBase\window_caption_active.png" />
+  </image>
+  <image name="WindowCaptionInactive">
+    <image file="ImagesBase\window_caption_inactive.png" />
+  </image>
+  <image name="WindowContentActive">
+    <image file="ImagesBase\window_content_active.png" />
+  </image>
+  <image name="WindowContentInactive">
+    <image file="ImagesBase\window_content_inactive.png" />
+  </image>
+
+  <image name="WindowCloseButtonActiveNormal">
+    <image file="ImagesBase\window_closebutton_active_normal.png" />
+  </image>
+  <image name="WindowCloseButtonActiveHot">
+    <image file="ImagesBase\window_closebutton_active_hot.png" />
+  </image>
+  <image name="WindowCloseButtonActivePressed">
+    <image file="ImagesBase\window_closebutton_active_pressed.png" />
+  </image>
+  <image name="WindowCloseButtonActiveDisabled">
+    <image file="ImagesBase\window_closebutton_active_disabled.png" />
+  </image>
+  <image name="WindowCloseButtonInactiveNormal">
+    <image file="ImagesBase\window_closebutton_active_normal.png" />
+  </image>
+  <image name="WindowCloseButtonInactiveHot">
+    <image file="ImagesBase\window_closebutton_active_hot.png" />
+  </image>
+  <image name="WindowCloseButtonInactivePressed">
+    <image file="ImagesBase\window_closebutton_active_pressed.png" />
+  </image>
+  <image name="WindowCloseButtonInactiveDisabled">
+    <image file="ImagesBase\window_closebutton_active_disabled.png" />
+  </image>
+  
+  <image name="ScrollbarVertThumbNormal">
+    <image-file file="ImagesBase\scrollbar_vert_thumb_normal.png" />
+  </image>
+  <image name="ScrollbarVertThumbDisabled">
+    <image-file file="ImagesBase\scrollbar_vert_thumb_disabled.png" />
+  </image>
+  <image name="ScrollbarVertThumbHot">
+    <image-file file="ImagesBase\scrollbar_vert_thumb_hot.png" />
+  </image>
+  <image name="ScrollbarVertThumbPressed">
+    <image-file file="ImagesBase\scrollbar_vert_thumb_pressed.png" />
+  </image>
+  <image name="ScrollbarVertTrackNormal">
+    <image-file file="ImagesBase\scrollbar_vert_track_normal.png" />
+  </image>
+  <image name="ScrollbarVertTrackDisabled">
+    <image-file file="ImagesBase\scrollbar_vert_track_disabled.png" />
+  </image>
+  <image name="ScrollbarVertTrackHot">
+    <image-file file="ImagesBase\scrollbar_vert_track_hot.png" />
+  </image>
+  <image name="ScrollbarVertTrackPressed">
+    <image-file file="ImagesBase\scrollbar_vert_track_pressed.png" />
+  </image>
+  <image name="ScrollbarVertButtonUpNormal">
+    <image-file file="ImagesBase\scrollbar_vert_button_up_normal.png" />
+  </image>
+  <image name="ScrollbarVertButtonUpHot">
+    <image-file file="ImagesBase\scrollbar_vert_button_up_hot.png" />
+  </image>
+  <image name="ScrollbarVertButtonUpPressed">
+    <image-file file="ImagesBase\scrollbar_vert_button_up_pressed.png" />
+  </image>
+  <image name="ScrollbarVertButtonUpDisabled">
+    <image-file file="ImagesBase\scrollbar_vert_button_up_disabled.png" />
+  </image>
+  <image name="ScrollbarVertButtonDownNormal">
+    <image-file file="ImagesBase\scrollbar_vert_button_down_normal.png" />
+  </image>
+  <image name="ScrollbarVertButtonDownHot">
+    <image-file file="ImagesBase\scrollbar_vert_button_down_hot.png" />
+  </image>
+  <image name="ScrollbarVertButtonDownPressed">
+    <image-file file="ImagesBase\scrollbar_vert_button_down_pressed.png" />
+  </image>
+  <image name="ScrollbarVertButtonDownDisabled">
+    <image-file file="ImagesBase\scrollbar_vert_button_down_disabled.png" />
+  </image>  
+    
+  <image name="LineEditDisabled">
+    <image-file file="Images\lineedit_disabled.png" />
+  </image>
+  <image name="LineEditHot">
+    <image-file file="Images\lineedit_hot.png" />
+  </image>
+  <image name="LineEditNormal">
+    <image-file file="Images\lineedit_normal.png" />
+  </image>
+
+
+  <image name="NodeNormal">
+    <image-file file="Images\node_normal.png" />
+  </image>
+  <image name="NodeHot">
+    <image-file file="Images\node_hot.png" />
+  </image>
+  <image name="NodeSelected">
+    <image-file file="Images\node_selected.png" />
+  </image>
+
+  <image name="RadialMenuBackground">
+    <image-file file="Images\radialmenu_background.png" />
+  </image>
+  <sprite name="RadialMenuPointer">
+    <image-file file="Images\radialmenu_arrow.png" />
+  </sprite>
+
+  <image name="ObjectInfoBackground">
+    <image-file file="Images\object_info_background.png" />
+  </image>
+  <image name="ObjectDetailInfoBackground">
+    <image-file file="Images\object_detailinfo_background2.png" />
+  </image>
+  
+  <image name="InventoryViewBackground">
+    <image-file file="Images\inventoryview_background.png" />
+  </image>
+
+  <image name="ChatBubbleBackground">
+    <image-file file="Images\chatbubble_background.png" />
+  </image>
+</resources>

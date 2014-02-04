@@ -1,0 +1,52 @@
+lineedit
+{
+	bg-image-sizing-left:2;
+	bg-image-sizing-right:2;
+	bg-image-sizing-top:2;
+	bg-image-sizing-bottom:2;
+	bg-image-sizing:stretch; 
+	
+	border-top:0;
+	border-left:6;
+	border-right:16;
+	border-bottom:0;
+
+	text-color:black;
+
+	font-weight: bold;
+	font-size: -21;
+}
+
+lineedit:normal
+{
+	bg-image:LineEditNormal; 
+}
+
+lineedit:hot
+{
+	bg-image:LineEditHot;
+}
+
+lineedit:disabled
+{
+	bg-image:LineEditDisabled; 
+	
+	text-color:gray;
+}
+
+lineedit cursor
+{
+	preferred-width:2;
+
+	bg-color: black;
+}
+
+lineedit selection
+{
+    text-color: white;
+
+	bg-color: #316ac5;
+
+	font-weight: bold;
+	font-size: -21;
+}

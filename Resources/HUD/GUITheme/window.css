@@ -1,0 +1,60 @@
+window
+{
+	bg-image: WindowContentActive;
+	bg-image-sizing-left:18;
+	bg-image-sizing-right:18;
+	bg-image-sizing-top:2;
+	bg-image-sizing-bottom:18;
+	bg-image-sizing:stretch; 
+	text-color: lightgreen;
+}
+
+window caption
+{
+	bg-image: WindowCaptionActive;
+	bg-image-sizing-left:18;
+	bg-image-sizing-right:18;
+	bg-image-sizing-top:19;
+	bg-image-sizing-bottom:2;
+	bg-image-sizing:stretch; 
+	preferred-height:24;
+}
+
+window frameleft
+{
+}
+
+window frameright
+{
+}
+
+window framebottom
+{
+}
+
+window buttonclose
+{
+	preferred-width:23;
+	preferred-height:22;
+	bg-image-sizing:center; 
+}
+
+window buttonclose:normal
+{
+	bg-image:WindowCloseButtonActiveNormal; 
+}
+
+window buttonclose:hot
+{
+	bg-image:WindowCloseButtonActiveHot; 
+}
+
+window buttonclose:pressed
+{
+	bg-image:WindowCloseButtonActivePressed; 
+}
+
+window buttonclose:disabled
+{
+	bg-image:WindowCloseButtonActiveDisabled; 
+}

@@ -1,0 +1,107 @@
+@import "pushbutton.css";
+@import "lineedit.css";
+@import "scrollbar_vertical.css";
+@import "listbox.css";
+@import "toolbar.css";
+@import "radialmenu.css";
+@import "objectinfo.css";
+@import "window.css";
+
+gameview
+{
+    bg-color: #101010;
+}
+
+networkactivityview
+{
+    bg-color: #aaaaaa;
+}
+
+frameratecounterview
+{
+    bg-color: #aaaaaa;
+}
+
+performancetimerview
+{
+    bg-color: #aaaaaa;
+	text-color: black;
+}
+
+inventoryview
+{
+    bg-image: InventoryViewBackground;
+}
+
+itemview
+{
+    bg-image: ObjectInfoBackground;
+
+    text-color: white;
+	font-weight: normal;
+	font-size: -10;
+}
+
+itemview title
+{
+    text-color: yellow;
+	font-weight: bold;
+	font-size: -14;
+}
+
+chatbubble
+{
+    bg-image: ChatBubbleBackground;
+	bg-image-sizing-left:20;
+	bg-image-sizing-right:20;
+	bg-image-sizing-top:20;
+	bg-image-sizing-bottom:40;
+	bg-image-sizing:stretch; 
+
+    text-color: white;
+	font-weight: normal;
+	font-size: -10;
+	align: center;
+	vertical-align: center;
+}
+
+consoleview
+{
+    bg-color: grey;
+}
+
+loginview
+{
+	bg-image: LoginBackground;
+	bg-image-sizing: stretch;
+}
+
+loginview label
+{
+    text-color: white;
+    font-size: 20;
+}
+
+loginview label.warning
+{
+    text-color: #ff4444;
+    font-size: 20;
+}
+
+loginview lineedit
+{
+	font-weight: bold;
+	font-size: 14;
+}
+
+loginview lineedit selection
+{
+	font-weight: bold;
+	font-size: 14;
+}
+
+characterselectionview
+{
+	bg-image: CharacterSelectionBackground;
+	bg-image-sizing: center;
+}
